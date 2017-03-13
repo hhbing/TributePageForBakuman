@@ -1,0 +1,51 @@
+html {
+        font-size: 62.5%
+}
+.header {
+        background: rgb(55,74,104);
+        height: 1200px;
+        padding-top: 80px;
+}
+.header > img {
+
+}
+.nav {
+        margin-top: 100px;
+        font-size: 1.5rem;
+}
+.content {
+        height: 100vh; 
+}
+.content > img {
+        margin-bottom: 30px;
+}
+.content .talk{
+        display: inline-block;
+        width: 40%;
+        height: 100px;
+        background: #c3c3c3;
+        margin-left: 5%;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        padding: 10px 30px;
+        position: relative;
+}
+.content .talk:nth-child(odd) img {
+        width: 100px;
+        position: absolute;
+        left: -50px;
+        top:-40px;
+}
+.content .talk:nth-child(even) img {
+        width: 100px;
+        position: absolute;
+        right: -60px;
+        top: -50px;
+}
+
+.content .talk p:nth-child(odd) {
+        text-align: right;
+}
+.content .talk p:nth-child(even) {
+        text-indent: 4em;
+}
